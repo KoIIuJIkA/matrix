@@ -9,7 +9,6 @@
 #include <sstream>
 
 namespace linalg {
-    // struct TextMode;
     class LinAlgError : public std::exception {
         char* message;
     public:
