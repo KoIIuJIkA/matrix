@@ -8,7 +8,6 @@
 #include <fstream>
 #include <sstream>
 
-//g++ -std=c++17 -Wall -Wextra -Iinclude laba3.cpp -o laba3 && ./laba3 
 namespace linalg {
     // struct TextMode;
     class LinAlgError : public std::exception {
